@@ -20,6 +20,7 @@ Overall, the computational complexity of the ranking algorithm can be considered
 ### Setup and Usage
 1. Clone the repository or download the project files.
 2. Create a virtual environment: `python -m venv venv`
+3. Add the following environment variables: `LUMU_CLIENT_KEY` and `COLLECTOR_ID` for sending data to Lumu.
 4. Activate the virtual environment:
 On Windows: `venv\Scripts\activate`
 On macOS/Linux: `source venv/bin/activate`
