@@ -26,7 +26,7 @@ On Windows: `venv\Scripts\activate`
 On macOS/Linux: `source venv/bin/activate`
 5. Install required packages: `pip install aiohttp click`
 6. Run the script: `python dns_log_parser.py <log_file_path> [--send] [--host] [--client]`
-<log_file_path>: Path to the DNS log file.
---send: Optional flag to send data to Lumu.
---host: Optional flag to print host statistics.
---client: Optional flag to print client IP statistics.
+    - <log_file_path>: Path to the DNS log file.
+    - --send: Optional flag to send data to Lumu.
+    - --host: Optional flag to print host statistics.
+    - --client: Optional flag to print client IP statistics.
